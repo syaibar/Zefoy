@@ -4,3 +4,4 @@ cython
 rich
 requests-toolbelt
 pillow
+
