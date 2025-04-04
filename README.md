@@ -1,6 +1,7 @@
 # 🎯 Zefoy Views Automation Script
 Automasi untuk menambahkan views TikTok secara otomatis melalui situs **zefoy.com**, menggunakan OCR (Tesseract) untuk bypass CAPTCHA. Script ini ditulis dalam **Python**, cocok untuk keperluan eksperimen dan edukasi seputar otomasi web.
 
+
 ## 📁 Struktur Folder
 ```
 📂 repo-zefoy/
@@ -10,6 +11,7 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs **zefoy.co
 └── 📄 README.md            # Dokumentasi project
 ```
 
+
 ## ✨ Fitur
 - ✅ **Bypass CAPTCHA** menggunakan `Tesseract OCR`
 - ✅ Deteksi **Cloudflare protection**
@@ -17,8 +19,8 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs **zefoy.co
 - ✅ Ulangi request hingga views berhasil
 - ✅ Tampilan output rapi dengan `rich`
 
-## ⚙️ Instalasi
 
+## ⚙️ Instalasi
 Clone repositori:
 ```
 git clone https://github.com/username/repo-zefoy.git
@@ -38,6 +40,7 @@ Setelah instalasi, sesuaikan path Tesseract di `Run.py`:
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 ```
 
+
 ## ▶️ Cara Menjalankan
 ```
 python Run.py
@@ -50,11 +53,13 @@ Script akan:
 - Mengisi formulir video secara otomatis
 - Mengirim views secara berulang
 
+
 ## ⚠️ Catatan Penting
 - **CAPTCHA** harus terbaca jelas agar proses berhasil.
 - Jika mendeteksi **Cloudflare**, script akan keluar otomatis.
 - Website `zefoy.com` bisa berubah sewaktu-waktu.
 - **Gunakan hanya untuk edukasi dan pembelajaran.**
+
 
 ## Warning
 Using Zefoy to increase TikTok views comes with risks, including the potential violation of TikTok’s terms of service. Excessive use may result in penalties such as account suspension or banning. Always use this tool responsibly and ensure your actions comply with TikTok’s rules and legal guidelines to avoid any negative consequences.
