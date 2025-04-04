@@ -4,6 +4,7 @@ try:
     from rich import print as printf
     from PIL import Image
     import pytesseract
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     from rich.panel import Panel
     from rich.console import Console
     from requests.exceptions import RequestException
