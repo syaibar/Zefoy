@@ -4,7 +4,7 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs **zefoy.co
 
 ## 📁 Struktur Folder
 ```
-📂 repo-zefoy/
+📂 Zefoy/
 ├── 📁 Penyimpanan/         # Folder untuk menyimpan gambar CAPTCHA
 ├── 📄 Run.py               # Script utama automasi
 ├── 📄 requirements.txt     # Daftar library Python yang dibutuhkan
