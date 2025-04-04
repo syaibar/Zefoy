@@ -23,8 +23,8 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs **zefoy.co
 ## ⚙️ Instalasi
 Clone repositori:
 ```
-git clone https://github.com/username/repo-zefoy.git
-cd repo-zefoy
+git clone https://github.com/syaibar/Zefoy.git
+cd Zefoy
 ```
 
 Install dependencies Python:
@@ -59,7 +59,7 @@ Script akan:
 - Jika mendeteksi **Cloudflare**, script akan keluar otomatis.
 - Website `zefoy.com` bisa berubah sewaktu-waktu.
 - **Gunakan hanya untuk edukasi dan pembelajaran.**
+- Menggunakan Zefoy untuk meningkatkan jumlah views di TikTok memiliki risiko, termasuk kemungkinan melanggar ketentuan layanan TikTok. Penggunaan yang berlebihan dapat mengakibatkan penalti seperti penangguhan atau pemblokiran akun. Gunakan alat ini secara bijak dan pastikan setiap tindakan Anda tetap sesuai dengan aturan TikTok serta pedoman hukum yang berlaku agar terhindar dari konsekuensi negatif.
 
-
-## Warning
-Using Zefoy to increase TikTok views comes with risks, including the potential violation of TikTok’s terms of service. Excessive use may result in penalties such as account suspension or banning. Always use this tool responsibly and ensure your actions comply with TikTok’s rules and legal guidelines to avoid any negative consequences.
+## Peringtan!!
+Menggunakan Zefoy untuk meningkatkan jumlah views di TikTok memiliki risiko, termasuk kemungkinan melanggar ketentuan layanan TikTok. Penggunaan yang berlebihan dapat mengakibatkan penalti seperti penangguhan atau pemblokiran akun. Gunakan alat ini secara bijak dan pastikan setiap tindakan Anda tetap sesuai dengan aturan TikTok serta pedoman hukum yang berlaku agar terhindar dari konsekuensi negatif.
