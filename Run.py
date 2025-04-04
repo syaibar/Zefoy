@@ -72,11 +72,11 @@ class DIPERLUKAN:
                             "Cookie": "; ".join([str(x)+"="+str(y) for x,y in session.cookies.get_dict().items()])
                         }
                     )
-                    printf(f"[bold bright_white]   ──>[bold green] LOGIN SUCCESSFUL!                ", end='\r')
+                    printf(f"[bold bright_white]   ──>[bold green] BERHASIL LOGIN!                ", end='\r')
                     time.sleep(2.5)
                     return True
                 else:
-                    printf(f"[bold bright_white]   ──>[bold red] LOGIN FAILED!                     ", end='\r')
+                    printf(f"[bold bright_white]   ──>[bold red] LOGIN GAGAL!                     ", end='\r')
                     time.sleep(2.5)
                     return False
 
@@ -106,11 +106,11 @@ class DIPERLUKAN:
             if 'placeholder="Enter Video URL"' in str(response):
                 self.video_form = re.search(r'name="(.*?)" placeholder="Enter Video URL"', str(response)).group(1)
                 self.post_action = re.findall(r'action="(.*?)">', str(response))[3]
-                printf(f"[bold bright_white]   ──>[bold green] SUCCESSFULLY FOUND VIDEO FORM!   ", end='\r')
+                printf(f"[bold bright_white]   ──>[bold green] FORM VIDEO BERHASIL DITEMUKAN!   ", end='\r')
                 time.sleep(1.5)
                 self.MENGIRIMKAN_TAMPILAN(self.video_form, self.post_action, video_url)
             else:
-                printf(f"[bold bright_white]   ──>[bold red] VIDEO FORM NOT FOUND!        ", end='\r')
+                printf(f"[bold bright_white]   ──>[bold red] FORM VIDEO TIDAK DITEMUKAN!        ", end='\r')
                 time.sleep(3.5)
                 COOKIES.update(
                     {
@@ -160,7 +160,7 @@ class DIPERLUKAN:
                     self.form_videolink, self.videolink = self.find_form_video[1][0], self.find_form_video[1][1]
                     self.form_videoid, self.videoid = self.find_form_video[0][0], self.find_form_video[0][1]
                 else:
-                    printf(f"[bold bright_white]   ──>[bold red] UNABLE TO FIND REQUIRED FORM FIELDS!     ", end='\r')
+                    printf(f"[bold bright_white]   ──>[bold red] TIDAK BISA MENEMUKAN FORM YANG DIPERLUKAN!     ", end='\r')
                     time.sleep(3.5)
                     return False
                 self.next_post_action = re.search(r'action="(.*?)"', str(self.base64_string)).group(1)
@@ -174,12 +174,12 @@ class DIPERLUKAN:
                 response2 = session.post('https://zefoy.com/{}'.format(self.next_post_action), data = data).text
                 self.base64_string2 = self.DECRYPTION_BASE64(response2)
 
-                if 'Successfully 1000 views sent.' in str(self.base64_string2):
+                if 'Berhasil mengirim 1000 views.' in str(self.base64_string2):
                     SUKSES.append(f"{self.base64_string2}")
                     printf(Panel(f"""[bold white]Status :[bold green] Successfully...
 [bold white]Link :[bold red] {video_url}
 [bold white]Views :[bold yellow] +1000""", width=56, style="bold bright_white", title="[bold bright_white][ Sukses ]"))
-                    printf(f"[bold bright_white]   ──>[bold green] TRY SENDING VIEWS AGAIN!           ", end='\r')
+                    printf(f"[bold bright_white]   ──>[bold green] MENCOBA KIRIM TAYANG ULANG!           ", end='\r')
                     time.sleep(2.5)
                     self.MENGIRIMKAN_TAMPILAN(video_form, post_action, video_url)
                 elif 'Successfully ' in str(self.base64_string2) and ' views sent.' in str(self.base64_string2):
@@ -352,8 +352,10 @@ class MAIN:
 [bold red]\/_/  /__  \ \  __\   \ \  __\ \ \ \/\ \  \ \____ \  
 [bold white]  /\_____\  \ \_____\  \ \_\    \ \_____\  \/\_____\ 
 [bold white]  \/_____/   \/_____/   \/_/     \/_____/   \/_____/
-        [underline green]Free Tiktok Views - Recode by @Syaibarstudio""", width=56, style="bold bright_white")
-        [underline green]Original by RozhakXD""", width=56, style="bold bright_white")
+
+   [green]Free Tiktok Views - Recode by @Syaibarstudio
+                  Original by RozhakXD
+                  """, width=56, style="bold bright_white")
         )
         return True
 
