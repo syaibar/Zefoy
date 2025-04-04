@@ -3,7 +3,7 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs zefoy.com,
 
 💻 Script ini dirancang untuk dijalankan melalui Command Prompt (CMD) di Windows, dan membutuhkan pengaturan path Tesseract secara manual agar dapat berjalan dengan optimal.
 
-📱 Klik [[https://github.com/RozhakXD/Zefoy](https://github.com/RozhakXD/Zefoy) untuk versi yang bisa dijalankan di Termux.
+📱 Klik [https://github.com/RozhakXD/Zefoy](https://github.com/RozhakXD/Zefoy) untuk versi yang bisa dijalankan di Termux.
 
 ## 📁 Struktur Folder
 ```
