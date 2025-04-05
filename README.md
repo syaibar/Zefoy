@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 Install Tesseract OCR:  
-*Windows: Download dari situs resmi Tesseract*
+*Windows: [Download dari situs resmi Tesseract](https://github.com/tesseract-ocr/tesseract/releases)*
 
 Setelah instalasi, sesuaikan path Tesseract di `Run.py`:
 ```python
