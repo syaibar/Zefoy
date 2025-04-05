@@ -9,7 +9,8 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs zefoy.com,
 ```
 📂 Zefoy/
 ├── 📁 Penyimpanan/         # Folder untuk menyimpan gambar CAPTCHA
-├── 📄 Run.py               # Script utama automasi
+├── 📄 RunCMD.py            # Script untuk dijalankan di CMD Windows!
+├── 📄 RunTermux.py         # Script untuk dijalankan di Termux!
 ├── 📄 requirements.txt     # Daftar library Python yang dibutuhkan
 └── 📄 README.md            # Dokumentasi project
 ```
@@ -23,7 +24,7 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs zefoy.com,
 - ✅ Tampilan output rapi dengan `rich`
 
 
-## ⚙️ Instalasi
+## ⚙️ Instalasi di WINDOWS!
 Clone repositori:
 ```
 git clone https://github.com/syaibar/Zefoy.git
@@ -44,7 +45,19 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 ```
 
 
-## ▶️ Cara Menjalankan
+## ⚙️ Instalasi di TERMUX!
+Jalankan perintah dibawah ini:
+```
+$ pkg update -y && pkg upgrade -y
+$ pkg install git python-pip tesseract
+$ git clone https://github.com/syaibar/Zefoy.git
+$ cd "Zefoy"
+$ pip install -r requirements.txt
+$ python RunTermux.py
+```
+
+
+## ▶️ Cara Menjalankan di CMD Windows dan Termux!
 ```
 python Run.py
 ```
