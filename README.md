@@ -71,8 +71,6 @@ Script akan:
 - Mengisi formulir video secara otomatis
 - Mengirim views secara berulang
 
-Original: [https://github.com/RozhakXD/Zefoy](https://github.com/RozhakXD/Zefoy)
-
 ## ⚠️ Catatan Penting
 - **CAPTCHA** harus terbaca jelas agar proses berhasil.
 - Jika mendeteksi **Cloudflare**, script akan keluar otomatis.
@@ -82,3 +80,5 @@ Original: [https://github.com/RozhakXD/Zefoy](https://github.com/RozhakXD/Zefoy)
 
 ## Peringatan!!
 Menggunakan Zefoy untuk meningkatkan jumlah views di TikTok memiliki risiko, termasuk kemungkinan melanggar ketentuan layanan TikTok. Penggunaan yang berlebihan dapat mengakibatkan penalti seperti penangguhan atau pemblokiran akun. Gunakan alat ini secara bijak dan pastikan setiap tindakan Anda tetap sesuai dengan aturan TikTok serta pedoman hukum yang berlaku agar terhindar dari konsekuensi negatif.
+
+Original: [https://github.com/RozhakXD/Zefoy](https://github.com/RozhakXD/Zefoy)
