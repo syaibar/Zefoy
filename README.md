@@ -1,4 +1,6 @@
 # 🎯 Zefoy Views Automation Script
+![Zefoy](https://github.com/user-attachments/assets/f0ac0fef-d4a3-46d7-b77c-c7ee95d6a9da)
+
 Automasi untuk menambahkan views TikTok secara otomatis melalui situs zefoy.com, menggunakan OCR (Tesseract) untuk bypass CAPTCHA. Script ini ditulis dalam Python, cocok untuk keperluan eksperimen dan edukasi seputar otomasi web.
 
 💻 Script ini dirancang untuk dijalankan melalui Command Prompt (CMD) di Windows, dan membutuhkan pengaturan path Tesseract secara manual agar dapat berjalan dengan optimal.
