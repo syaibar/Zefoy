@@ -26,7 +26,7 @@ Automasi untuk menambahkan views TikTok secara otomatis melalui situs zefoy.com,
 - ✅ Tampilan output rapi dengan `rich`
 
 
-## ⚙️ Instalasi di WINDOWS!
+## 💻 Instalasi di WINDOWS!
 Clone repositori:
 ```
 git clone https://github.com/syaibar/Zefoy.git
@@ -47,7 +47,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 ```
 
 
-## ⚙️ Instalasi di TERMUX!
+## 📱 Instalasi di TERMUX!
 Jalankan perintah dibawah ini:
 ```
 $ pkg update -y && pkg upgrade -y
